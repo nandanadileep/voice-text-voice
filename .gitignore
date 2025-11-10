@@ -1,0 +1,64 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.log
+.env
+.env.*
+venv/
+.venv/
+instance/
+.envrc
+
+# ---- FastAPI / Backend ----
+backend/__pycache__/
+backend/*.sqlite3
+backend/*.db
+backend/test_audio.wav
+backend/*.mp3
+backend/*.m4a
+backend/*.ogg
+backend/*.webm
+backend/*.wav
+
+# ---- Faster Whisper model cache ----
+# (large model weights downloaded automatically)
+.cache/
+huggingface/
+hf_cache/
+ctranslate2/
+*.bin
+*.pt
+*.onnx
+
+# ---- VSCode / IDEs ----
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# ---- Node / Frontend ----
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.DS_Store
+frontend/.env.local
+frontend/.env.*.local
+
+# ---- Docker ----
+*.pid
+*.seed
+*.pid.lock
+*.tar
+*.log
+*.tmp
+*.bak
+
+# ---- System files ----
+Thumbs.db
+ehthumbs.db
+Desktop.ini
